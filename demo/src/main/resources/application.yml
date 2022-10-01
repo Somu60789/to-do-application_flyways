@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/todo
+    username: postgres
+    password: Nlrdpa@1998
+  flyway:
+    locations: "classpath:db/migration"
+
+flyway:
+  validate-on-migrate: false
+  encoding: UTF8MB4
+  out-of-order: true
